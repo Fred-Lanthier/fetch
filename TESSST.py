@@ -5,8 +5,12 @@ a = np.linspace(0, 10, 1000)
 b = np.exp(np.sin(2*np.pi*a))
 
 d = np.abs(a)
-c = np.cos(b)
+x0 = 0
+xf = 5
+npts = 15
+c = np.linspace(x0, xf, npts)
 e = "allo toi"
+a = "genre comme"
 d = "penis"
 f = e + d
 
