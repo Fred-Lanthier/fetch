@@ -13,6 +13,7 @@ e = "allo toi"
 a = "genre comme"
 d = "penis"
 f = e + d
+a = 12
 
 
 plt.figure(1)
